@@ -31,9 +31,10 @@ jobs:
 
       - name: Run a 2-line script
         run: mkdir build 
+             ls -a
 
       - name: Run a 3-line script
-        run: ls -a
+        run: pwd
 
       - name: Run a 4-line script
         run: touch build/computer.txt
