@@ -30,8 +30,9 @@ jobs:
         run: echo Hello, world!
 
       - name: Run a 2-line script
-        run: mkdir build 
-             ls -a
+        run: |
+         mkdir build 
+         ls -a
 
       - name: Run a 3-line script
         run: pwd
